@@ -150,7 +150,7 @@ public class TestQueueStack {
       assertEquals(true, QueueStackTester.search(st, 3));
       assertEquals(false, QueueStackTester.search(st, 1));
    }
-   @Test
+    @Test
    public void testSearch2()
    {
       Stack<String> st = new LinkedStack<String>();
